@@ -226,3 +226,5 @@ void Widget::setCursorIcon()
         break;
     }
 }
+
+
