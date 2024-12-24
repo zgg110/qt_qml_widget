@@ -170,10 +170,6 @@ Makefile: ../RadarLogging/RadarLogging.pro D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspec
 		D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_remoteobjects_private.pri \
 		D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_repparser.pri \
 		D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_repparser_private.pri \
-		D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_script.pri \
-		D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_script_private.pri \
-		D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_scripttools.pri \
-		D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_scripttools_private.pri \
 		D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_scxml.pri \
 		D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_scxml_private.pri \
 		D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_sensors.pri \
@@ -349,10 +345,6 @@ D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_remoteobjects.pri:
 D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_remoteobjects_private.pri:
 D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_repparser.pri:
 D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_repparser_private.pri:
-D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_script.pri:
-D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_script_private.pri:
-D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_scripttools.pri:
-D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_scripttools_private.pri:
 D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_scxml.pri:
 D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_scxml_private.pri:
 D:/Qt/Qt5.9.9/5.9.9/mingw53_32/mkspecs/modules/qt_lib_sensors.pri:
