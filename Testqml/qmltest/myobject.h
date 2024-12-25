@@ -9,6 +9,8 @@ class MyObject : public QObject
 public:
     explicit MyObject(QObject *parent = nullptr);
 
+
+
 private:
     int m_iValue;
     QString m_sString;
