@@ -8,8 +8,10 @@ Window {
     height: 480
     title: qsTr("Hello World")
 
-    MyRectangle {
+//    MyObject {
 
-    }
+//    }
+
+
 
 }
