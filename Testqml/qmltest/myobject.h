@@ -9,6 +9,7 @@ class MyObject : public QObject
 public:
     explicit MyObject(QObject *parent = nullptr);
 
+<<<<<<< HEAD
     int iValue() const;
     void setIValue(int newIValue);
 
@@ -19,6 +20,9 @@ signals:
     void iValueChanged();
 
     void sStringChanged();
+=======
+
+>>>>>>> 4dafc428caefbcad861e1c8c3781c5a57f8eb0ee
 
 private:
     int m_iValue;
