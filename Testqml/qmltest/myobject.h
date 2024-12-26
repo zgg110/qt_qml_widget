@@ -2,14 +2,15 @@
 #define MYOBJECT_H
 
 #include <QObject>
+#include <QtQml>
 
 class MyObject : public QObject
 {
     Q_OBJECT
+
 public:
     explicit MyObject(QObject *parent = nullptr);
 
-<<<<<<< HEAD
     int iValue() const;
     void setIValue(int newIValue);
 
@@ -18,11 +19,7 @@ public:
 
 signals:
     void iValueChanged();
-
     void sStringChanged();
-=======
-
->>>>>>> 4dafc428caefbcad861e1c8c3781c5a57f8eb0ee
 
 private:
     int m_iValue;

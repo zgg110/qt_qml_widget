@@ -5,6 +5,7 @@ MyObject::MyObject(QObject *parent) : QObject(parent)
 
 }
 
+
 int MyObject::iValue() const
 {
     return m_iValue;
