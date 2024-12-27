@@ -2,6 +2,7 @@
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 #include <QScreen>
+#include <QObject>
 #include "myobject.h"
 
 int main(int argc, char *argv[])
@@ -30,6 +31,14 @@ int main(int argc, char *argv[])
             QCoreApplication::exit(-1);
     }, Qt::QueuedConnection);
     engine.load(url);
+
+    //engine 加载完成后 load以后
+    auto list = engine.rootObjects();
+//    auto buttonObj = list.first()->findChild<QObject *>("mybutton");
+    auto window = list.first();
+    qDebug() << window;
+
+    QObject::connect(window,SIGNAL,(qmlSig)
 
     return app.exec();
 }

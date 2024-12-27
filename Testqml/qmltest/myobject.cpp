@@ -31,3 +31,17 @@ void MyObject::setSString(const QString &newSString)
     m_sString = newSString;
     emit sStringChanged();
 }
+
+
+void MyObject::func()
+{
+    qDebug() << __FUNCTION__;
+}
+
+void MyObject::cppSlot(int i, QString s)
+{
+    qDebug() << __FUNCTION__<< "  "<< i <<"  "<<s;
+}
+
+
+

@@ -17,6 +17,12 @@ public:
     const QString &sString() const;
     void setSString(const QString &newSString);
 
+    Q_INVOKABLE void func();
+
+public slots:
+    void cppSlot(int i,QString s);
+
+
 signals:
     void iValueChanged();
     void sStringChanged();
