@@ -38,7 +38,9 @@ int main(int argc, char *argv[])
     auto window = list.first();
     qDebug() << window;
 
-    QObject::connect(window,SIGNAL,(qmlSig)
+    MyObject myobject;
+
+    QObject::connect(window,SIGNAL(qmlSig(int,QString)),&myobject,SLOT(cppSlot(int, QString)));
 
     return app.exec();
 }

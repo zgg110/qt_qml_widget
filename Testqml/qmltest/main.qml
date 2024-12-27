@@ -40,11 +40,11 @@ Window {
     }
 
     //连接信号与槽相关(使用的前提做好object的相关定义)
-    Connections {
-        target: window                   //指向目标
-        onQmlSig: myobj.cppSlot(i,s)     //触发的信号所对应的槽函数
+//    Connections {
+//        target: window                   //指向目标
+//        onQmlSig: myobj.cppSlot(i,s)     //触发的信号所对应的槽函数
 
-    }
+//    }
 
 //    Component.onCompleted: {
 //        qmlSig.connect(myobj.cppSlot)
