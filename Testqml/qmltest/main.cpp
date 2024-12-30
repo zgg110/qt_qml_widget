@@ -24,6 +24,8 @@ int main(int argc, char *argv[])
 //    QRect rect = screen->virtualGeometry();              //获取屏幕像素
     context->setContextProperty("SCREEN_WIDTH",800);  //将SCREEN_WIDTH进行属性定义，可以在qml文件中直接进行调用
     qmlRegisterType<MyObject>("MyObj",1,0,"MyObject");
+
+
     const QUrl url(QStringLiteral("qrc:/main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
                      &app, [url](QObject *obj, const QUrl &objUrl) {
@@ -37,6 +39,15 @@ int main(int argc, char *argv[])
 //    auto buttonObj = list.first()->findChild<QObject *>("mybutton");
     auto window = list.first();
     qDebug() << window;
+
+//    QVariant res;
+//    QVariant arg_1 = 123;
+//    QVariant arg_2 = "zhangsan";
+
+//    QMetaObject::invokeMethod(window ,"qmlFunc",
+//                                Q_RETURN_ARG(QVariant,res),
+//                                Q_ARG(QVariant,arg_1),
+//                                Q_ARG(QVariant,arg_2));   //使用可以调用qml端的函数   但是要定义 engine等相关关联
 
     MyObject myobject;
 
